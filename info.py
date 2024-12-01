@@ -19,7 +19,7 @@ SILICON_PIC = os.environ.get("SILICON_PIC", "https://telegra.ph/file/21a8e96b45c
 API_ID = int(getenv("API_ID", "22384370"))
 API_HASH = str(getenv("API_HASH", "05e2be75292ecbec3f7a29bf13b1e29e"))
 BOT_TOKEN = str(getenv("BOT_TOKEN", ""))
-FORCE_SUB = os.environ.get("FORCE_SUB", "0") 
+FORCE_SUB = os.environ.get("FORCE_SUB", "-1002281015574") 
 MONGO_DB = str(getenv("MONGO_DB", "",))
 DEF_CAP = str(
     getenv(
